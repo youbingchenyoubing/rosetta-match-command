@@ -1,0 +1,25 @@
+loop: 1
+full_range: 143 173
+nranges: 16
+range: 143 160
+range: 144 163
+range: 146 165
+range: 151 173
+range: 154 173
+range: 143 157
+range: 148 162
+range: 150 164
+range: 155 169
+range: 159 173
+range: 148 155
+range: 150 157
+range: 151 159 
+range: 159 173
+range: 162 173
+range: 167 173
+loop: 2
+full_range: 200 210
+nranges: 3
+range: 203 208
+range: 200 208
+range: 203 210

@@ -1,0 +1,7 @@
+#######filename     loop_id     align_sys     gap_begin     gap_end     native_loop_begin     native_loop_end
+       4x2x.pdb           2         N2C_C            71          74                   589                 592
+              *           1             -           133         141                   549                 554
+       2zpd.pdb           1             S           117         122                   549                 554
+              *           2             -            91         101                   589                 592
+       1i8c.pdb           1         C2N_N            23          30                   549                 554
+              *           2             -            39          44                   589                 592

@@ -1,0 +1,10 @@
+loop: 1 
+full_range: 18 21
+nranges: 1
+range: 18 21
+loop: 2
+full_range: 38 56
+nranges: 3
+range: 38 53
+range: 41 56
+range: 41 48

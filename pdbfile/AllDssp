@@ -1,0 +1,17 @@
+#!/bin/bash
+#cd $1
+#for i in `ls *.pdb.gz`
+#do
+#输出信息
+#echo $i
+#解压命令
+#gzip -d $i 
+#done
+
+for i in `ls *.pdb`
+do
+#输出转换后名称
+echo $i|sed 's/\.pdb/\.dssp/'
+#PDB转化成dssp dsspChange -i infile -o outfile
+./dsspChange -i $i -o $(echo $i|sed 's/\.pdb/\.dssp/')
+done

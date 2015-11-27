@@ -1,0 +1,3 @@
+#!/bin/bash
+rosetta.debug -epi_graft -match -rough_match -nres_Ab 323 -Ab_first -S_align -native_complex ./3ZTN.pdb -loop_ranges ./loop_ranges_3ztn -input_file ./filename.txt -paths ./paths.txt -output_file ./outfile_3ztn.txt -rough_match_closure_rms 5 -max_closure_rms 3 -max_intra_clash 100 -max_inter_clash 100 -use_epitope_sidechain_during_clash_check -no_single_match_output
+#rosetta.debug -epi_graft -match -nres_Ab 236 -Ab_first -native_complex ./1tji_all_2.dssp -loop_ranges ./loop_ranges -keep_natro ./keep_natro -input_file ./filename.txt -paths ./paths.txt -max_closure_rms 3 -max_match_width_delta 30 -max_intra_clash 100 -spatial_filter ./mutant.pdb -compute_cbeta_neighbors -output_file ./outfile.txt -use_epitope_sidechain_during_clash_check
